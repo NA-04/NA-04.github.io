@@ -1,0 +1,98 @@
+body {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+header {
+  margin-bottom: 50px;
+  background: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png) center center;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0px 40px;
+  margin: 0px auto;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  color: #222;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+span {
+  font-size: 30px;
+}
+
+p, h2, h3, li {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+.intro {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+div {
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+p, li {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.quote {
+  background-color: #444;
+  position: relative;
+  margin: 0 -40px;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 40px;
+  padding: 40px 10px;
+}
+
+blockquote:before {
+  content: '”';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: rotate(180deg);
+  line-height: 0;
+  font-size: 100px;
+  /* then the styling */
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 13.5px;
+  margin-top: 0px;
+}
+
+#line {
+  border-bottom: 3px solid #222;
+  margin: 0 -30px 40px -30px;
+}
